@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=0.1.0
+Name=Mines of Rust
+Comment=Minesweeper clone
+Categories=Game
+Exec=/usr/bin/minesofrust
+Icon=/usr/share/icons/hicolor/64x64/apps/minesofrust.png
+Keywords=

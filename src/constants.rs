@@ -1,0 +1,26 @@
+use egui::Color32;
+
+pub const DEFAULT_BEGINNER_WIDTH: u32 = 9;
+pub const DEFAULT_BEGINNER_HEIGHT: u32 = 9;
+pub const DEFAULT_BEGINNER_NUM_MINES: u32 = 10;
+pub const DEFAULT_BEGINNER_UI_WIDTH: f32 = 376.0;
+pub const DEFAULT_BEGINNER_UI_HEIGHT: f32 = 605.0;
+
+pub const DEFAULT_INTERMEDIATE_WIDTH: u32 = 16;
+pub const DEFAULT_INTERMEDIATE_HEIGHT: u32 = 16;
+pub const DEFAULT_INTERMEDIATE_NUM_MINES: u32 = 40;
+pub const DEFAULT_INTERMEDIATE_UI_WIDTH: f32 = 655.0;
+pub const DEFAULT_INTERMEDIATE_UI_HEIGHT: f32 = 885.0;
+
+pub const DEFAULT_EXPERT_WIDTH: u32 = 30;
+pub const DEFAULT_EXPERT_HEIGHT: u32 = 16;
+pub const DEFAULT_EXPERT_NUM_MINES: u32 = 80;
+pub const DEFAULT_EXPERT_UI_WIDTH: f32 = 1215.0;
+pub const DEFAULT_EXPERT_UI_HEIGHT: f32 = 885.0;
+
+#[allow(dead_code)]
+pub const COLOR_UNREVEALED: Color32 = Color32::from_rgb(0, 92, 128);
+pub const COLOR_BORDER: Color32 = Color32::from_rgb(27, 27, 27);
+pub const COLOR_DETONATED: Color32 = Color32::GOLD;
+pub const COLOR_REVEALED: Color32 = Color32::DARK_GRAY;
+pub const COLOR_MISFLAGGED: Color32 = Color32::from_rgb(255, 188, 188);
